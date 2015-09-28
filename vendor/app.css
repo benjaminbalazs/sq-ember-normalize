@@ -1,0 +1,60 @@
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+a img {
+	display: block;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	border: none;
+	outline: none;
+}
+
+html {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+input, textarea {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+input::-ms-clear, textarea::-ms-clear {
+  width : 0;
+  height: 0;
+}
+
+:invalid {
+  box-shadow: none;
+}
+
+:-moz-submit-invalid {
+  box-shadow: none;
+}
+
+:-moz-ui-invalid {
+  box-shadow:none;
+}
+
+[data-ember-action] {
+  cursor: pointer;
+}
