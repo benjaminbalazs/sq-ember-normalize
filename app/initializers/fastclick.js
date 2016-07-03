@@ -4,7 +4,11 @@ export function initialize() {
 
     Ember.run.schedule('afterRender', function() {
 
-          window.FastClick.attach(document.body);
+        if ('ontouchstart' in window) {
+
+            window.FastClick.attach(document.body);
+
+        }
 
     });
 
