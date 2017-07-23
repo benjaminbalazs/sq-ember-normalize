@@ -61,4 +61,5 @@ input::-ms-clear, textarea::-ms-clear {
 
 [data-ember-action] {
   cursor: pointer;
+  user-select: none;
 }
