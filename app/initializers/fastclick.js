@@ -6,7 +6,7 @@ export function initialize() {
 
         if ('ontouchstart' in window) {
 
-            window.FastClick.attach(document.body);
+            //window.FastClick.attach(document.body);
 
         }
 
