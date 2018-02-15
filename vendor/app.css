@@ -47,6 +47,10 @@ input::-ms-clear, textarea::-ms-clear {
   height: 0;
 }
 
+h1, h2, h3, h4, p, button, a {
+	user-select: none;
+}
+
 :invalid {
   box-shadow: none;
 }
