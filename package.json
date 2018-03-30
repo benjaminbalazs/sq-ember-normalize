@@ -44,7 +44,7 @@
     "broccoli-funnel": "^1.0.1",
     "broccoli-merge-trees": "^1.1.1",
     "broccoli-stew": "^1.5.0",
-    "ember-cli-babel": "^5.1.6",
+    "ember-cli-babel": "^6.6.0",
     "fastclick": "^1.0.6"
   },
   "ember-addon": {
